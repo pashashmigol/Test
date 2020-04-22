@@ -1,0 +1,1902 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBannerCustomEvent.swift",
+      "line": 5,
+      "symbol": "GAPDFPBannerCustomEvent",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBannerCustomEvent.swift",
+      "line": 6,
+      "symbol": "GAPDFPBannerCustomEvent.delegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBannerCustomEvent.swift",
+      "line": 8,
+      "symbol": "GAPDFPBannerCustomEvent.requestAd(_:parameter:label:request:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBannerCustomEvent.swift",
+      "line": 19,
+      "symbol": "GAPDFPBannerCustomEvent",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBannerCustomEvent.swift",
+      "line": 20,
+      "symbol": "GAPDFPBannerCustomEvent.adViewDidRenderAd(view:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBannerCustomEvent.swift",
+      "line": 24,
+      "symbol": "GAPDFPBannerCustomEvent.willLeaveApplicationFromAd(view:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBannerCustomEvent.swift",
+      "line": 29,
+      "symbol": "GAPDFPBannerCustomEvent.adViewDidFailToLoadAd(view:didFailAd:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 5,
+      "symbol": "GAPDFPBidder",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 11,
+      "symbol": "GAPDFPBidder.adLoader",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 12,
+      "symbol": "GAPDFPBidder.gAdLoader",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 17,
+      "symbol": "GAPDFPBidder.nativeAdView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 24,
+      "symbol": "GAPDFPBidder.adChoicesView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 25,
+      "symbol": "GAPDFPBidder.appUserID",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 26,
+      "symbol": "GAPDFPBidder.bannerSizes",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 27,
+      "symbol": "GAPDFPBidder.bannerRequest",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 28,
+      "symbol": "GAPDFPBidder.bannerView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 29,
+      "symbol": "GAPDFPBidder.userKeywords",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 30,
+      "symbol": "GAPDFPBidder.debug",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 31,
+      "symbol": "GAPDFPBidder.refreshMilliseconds",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 32,
+      "symbol": "GAPDFPBidder.overrideRendering",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 33,
+      "symbol": "GAPDFPBidder.rootViewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 34,
+      "symbol": "GAPDFPBidder.adPlaceholder",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 38,
+      "symbol": "GAPDFPBidder.nativeDelegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 42,
+      "symbol": "GAPDFPBidder.gAdBannerDelegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 44,
+      "symbol": "GAPDFPBidder.init(adUnitID:requestOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 52,
+      "symbol": "GAPDFPBidder.setGAD(adUnitID:rootViewController:options:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 80,
+      "symbol": "GAPDFPBidder.loadAds(dfpRequest:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 109,
+      "symbol": "GAPDFPBidder.adLoaderDidReceiveAd(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 134,
+      "symbol": "GAPDFPBidder.adLoaderDidFail(didFail:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 222,
+      "symbol": "GAPDFPBidder",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 223,
+      "symbol": "GAPDFPBidder.adLoader(_:didReceive:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 235,
+      "symbol": "GAPDFPBidder.adLoader(_:didFailToReceiveAdWithError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 240,
+      "symbol": "GAPDFPBidder.adLoaderDidFinishLoading(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 245,
+      "symbol": "GAPDFPBidder",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 246,
+      "symbol": "GAPDFPBidder.validBannerSizes(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 256,
+      "symbol": "GAPDFPBidder.adLoader(_:didReceive:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 261,
+      "symbol": "GAPDFPBidder",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 262,
+      "symbol": "GAPDFPBidder.adViewDidReceiveAd(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 289,
+      "symbol": "GAPDFPBidder.adView(_:didFailToReceiveAdWithError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 293,
+      "symbol": "GAPDFPBidder.adViewWillPresentScreen(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 297,
+      "symbol": "GAPDFPBidder.adViewWillDismissScreen(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 301,
+      "symbol": "GAPDFPBidder.adViewDidDismissScreen(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 305,
+      "symbol": "GAPDFPBidder.adViewWillLeaveApplication(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 310,
+      "symbol": "GAPDFPBidder",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 311,
+      "symbol": "GAPDFPBidder.nativeAdDidRecordImpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 314,
+      "symbol": "GAPDFPBidder.nativeAdDidRecordClick(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 317,
+      "symbol": "GAPDFPBidder.nativeAdWillPresentScreen(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 320,
+      "symbol": "GAPDFPBidder.nativeAdWillDismissScreen(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 323,
+      "symbol": "GAPDFPBidder.nativeAdDidDismissScreen(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 326,
+      "symbol": "GAPDFPBidder.nativeAdWillLeaveApplication(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPBidder.swift",
+      "line": 329,
+      "symbol": "GAPDFPBidder.nativeAdIsMuted(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPNativeCustomEvent.swift",
+      "line": 5,
+      "symbol": "GAPDFPNativeCustomEvent",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPNativeCustomEvent.swift",
+      "line": 6,
+      "symbol": "GAPDFPNativeCustomEvent.delegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPNativeCustomEvent.swift",
+      "line": 9,
+      "symbol": "GAPDFPNativeCustomEvent.request(withParameter:request:adTypes:options:rootViewController:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPNativeCustomEvent.swift",
+      "line": 22,
+      "symbol": "GAPDFPNativeCustomEvent.handlesUserClicks()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/DFP/GAPDFPNativeCustomEvent.swift",
+      "line": 26,
+      "symbol": "GAPDFPNativeCustomEvent.handlesUserImpressions()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAd.swift",
+      "line": 11,
+      "symbol": "GAPAd",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAd.swift",
+      "line": 12,
+      "symbol": "GAPAd.ecpm",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAd.swift",
+      "line": 13,
+      "symbol": "GAPAd.adm",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAd.swift",
+      "line": 14,
+      "symbol": "GAPAd.advertiser",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAd.swift",
+      "line": 15,
+      "symbol": "GAPAd.provider",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAd.swift",
+      "line": 16,
+      "symbol": "GAPAd.ttl",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAd.swift",
+      "line": 17,
+      "symbol": "GAPAd.native",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAd.swift",
+      "line": 18,
+      "symbol": "GAPAd.size",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAd.swift",
+      "line": 19,
+      "symbol": "GAPAd.identifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAd.swift",
+      "line": 20,
+      "symbol": "GAPAd.customTargeting",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAd.swift",
+      "line": 21,
+      "symbol": "GAPAd.keywords",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAd.swift",
+      "line": 22,
+      "symbol": "GAPAd.eventTrackerManager",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAd.swift",
+      "line": 23,
+      "symbol": "GAPAd.delegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAd.swift",
+      "line": 24,
+      "symbol": "GAPAd.bannerDelegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAd.swift",
+      "line": 25,
+      "symbol": "GAPAd.nativeDelegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAd.swift",
+      "line": 26,
+      "symbol": "GAPAd.adChoicesView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAd.swift",
+      "line": 38,
+      "symbol": "GAPAd.init(adUnitID:adView:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAd.swift",
+      "line": 43,
+      "symbol": "GAPAd.init(adUnitID:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAd.swift",
+      "line": 87,
+      "symbol": "GAPAd.fireAvailableTrackers()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAd.swift",
+      "line": 94,
+      "symbol": "GAPAd.fireVisibleTrackers()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAdChoices.swift",
+      "line": 3,
+      "symbol": "GAPAdChoices",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAdChoicesView.swift",
+      "line": 4,
+      "symbol": "GAPAdChoicesView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAdLoader.swift",
+      "line": 5,
+      "symbol": "GAPAdLoader",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAdLoader.swift",
+      "line": 6,
+      "symbol": "GAPAdLoader.delegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAdLoader.swift",
+      "line": 7,
+      "symbol": "GAPAdLoader.requestBuilder",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAdLoader.swift",
+      "line": 8,
+      "symbol": "GAPAdLoader.requestOption",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAdLoader.swift",
+      "line": 9,
+      "symbol": "GAPAdLoader.size",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAdLoader.swift",
+      "line": 10,
+      "symbol": "GAPAdLoader.adUnit",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAdLoader.swift",
+      "line": 11,
+      "symbol": "GAPAdLoader.debug",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAdLoader.swift",
+      "line": 12,
+      "symbol": "GAPAdLoader.refreshMilliseconds",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAdLoader.swift",
+      "line": 21,
+      "symbol": "GAPAdLoader.init(adUnit:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAdLoader.swift",
+      "line": 30,
+      "symbol": "GAPAdLoader.loadAd()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAdLoaderDelegate.swift",
+      "line": 9,
+      "symbol": "GAPAdLoaderDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAdLoaderDelegate.swift",
+      "line": 10,
+      "symbol": "GAPAdLoaderDelegate.adLoaderDidReceiveAd(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPAdLoaderDelegate.swift",
+      "line": 11,
+      "symbol": "GAPAdLoaderDelegate.adLoaderDidFail(didFail:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPBannerView.swift",
+      "line": 3,
+      "symbol": "GAPBannerView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPBannerView.swift",
+      "line": 7,
+      "symbol": "GAPBannerView.adUnit",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPBannerView.swift",
+      "line": 9,
+      "symbol": "GAPBannerView.renderAd()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPBannerViewDelegate.swift",
+      "line": 3,
+      "symbol": "GAPBannerViewDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPBannerViewDelegate.swift",
+      "line": 4,
+      "symbol": "GAPBannerViewDelegate.adViewDidRenderAd(view:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPBannerViewDelegate.swift",
+      "line": 5,
+      "symbol": "GAPBannerViewDelegate.willLeaveApplicationFromAd(view:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPBannerViewDelegate.swift",
+      "line": 6,
+      "symbol": "GAPBannerViewDelegate.adViewDidFailToLoadAd(view:didFailAd:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPDebug.swift",
+      "line": 3,
+      "symbol": "GAPDebug",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPDebug.swift",
+      "line": 8,
+      "symbol": "GAPDebug.deviceID",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPDebug.swift",
+      "line": 13,
+      "symbol": "GAPDebug.ipv6",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPError.swift",
+      "line": 3,
+      "symbol": "GAPError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPError.swift",
+      "line": 4,
+      "symbol": "GAPError.gapDemandFetchSuccess",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPError.swift",
+      "line": 5,
+      "symbol": "GAPError.gapInvalidSize",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPError.swift",
+      "line": 6,
+      "symbol": "GAPError.gapNetworkError",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPError.swift",
+      "line": 7,
+      "symbol": "GAPError.gapServerError",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPError.swift",
+      "line": 8,
+      "symbol": "GAPError.gapNoBids",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPError.swift",
+      "line": 9,
+      "symbol": "GAPError.gapTimeout",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPError.swift",
+      "line": 12,
+      "symbol": "GAPError",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPEventManager.swift",
+      "line": 3,
+      "symbol": "GAPEventManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPEventManager.swift",
+      "line": 10,
+      "symbol": "GAPEventManager.fireEventTrackers(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPMobile.swift",
+      "line": 4,
+      "symbol": "GAPMobile",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPMobile.swift",
+      "line": 5,
+      "symbol": "GAPMobile.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPMobile.swift",
+      "line": 6,
+      "symbol": "GAPMobile.serverHost",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPMobile.swift",
+      "line": 7,
+      "symbol": "GAPMobile.timeoutMillis",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPMobile.swift",
+      "line": 8,
+      "symbol": "GAPMobile.gadStarted",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPNativeAdDelegate.swift",
+      "line": 3,
+      "symbol": "GAPNativeAdDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPNativeAdDelegate.swift",
+      "line": 4,
+      "symbol": "GAPNativeAdDelegate.nativeAdDidLoad(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPNativeAdDelegate.swift",
+      "line": 5,
+      "symbol": "GAPNativeAdDelegate.nativeAdDidFailToReceive(didFail:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPNativeAdDelegate.swift",
+      "line": 6,
+      "symbol": "GAPNativeAdDelegate.nativeAdDidFailToLoadAd(_:didFailToLoadWithError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPNativeAdDelegate.swift",
+      "line": 7,
+      "symbol": "GAPNativeAdDelegate.nativeAdDidRecordImpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPNativeAdDelegate.swift",
+      "line": 8,
+      "symbol": "GAPNativeAdDelegate.nativeAdDidRecordClick(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPRequestBuilder.swift",
+      "line": 3,
+      "symbol": "GAPRequestBuilder",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPRequestBuilder.swift",
+      "line": 4,
+      "symbol": "GAPRequestBuilder.buildBanner()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPRequestBuilder.swift",
+      "line": 5,
+      "symbol": "GAPRequestBuilder.buildNative()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPRequestBuilder.swift",
+      "line": 6,
+      "symbol": "GAPRequestBuilder.buildVideo()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPRequestBuilder.swift",
+      "line": 9,
+      "symbol": "GAPRequestBuilderError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPRequestBuilder.swift",
+      "line": 10,
+      "symbol": "GAPRequestBuilderError.buildError(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPRequestBuilder.swift",
+      "line": 11,
+      "symbol": "GAPRequestBuilderError.notImplemented",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPRequestOption.swift",
+      "line": 4,
+      "symbol": "GAPRequestOption",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPRequestOption.swift",
+      "line": 5,
+      "symbol": "GAPRequestOption.banner",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPRequestOption.swift",
+      "line": 6,
+      "symbol": "GAPRequestOption.native",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPRequestOption.swift",
+      "line": 7,
+      "symbol": "GAPRequestOption.video",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPRequestOption.swift",
+      "line": 28,
+      "symbol": "GAPRequestOption.hash",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPRequestOption.swift",
+      "line": 32,
+      "symbol": "GAPRequestOption.isEqual(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPWebView.swift",
+      "line": 54,
+      "symbol": "GAPWebView.webView(_:createWebViewWith:for:windowFeatures:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPWebView.swift",
+      "line": 62,
+      "symbol": "GAPWebView.webViewDidClose(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPWebView.swift",
+      "line": 70,
+      "symbol": "GAPWebView.webView(_:runJavaScriptConfirmPanelWithMessage:initiatedByFrame:completionHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPWebView.swift",
+      "line": 74,
+      "symbol": "GAPWebView.webView(_:runJavaScriptTextInputPanelWithPrompt:defaultText:initiatedByFrame:completionHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPWebView.swift",
+      "line": 104,
+      "symbol": "GAPWebView.webView(_:decidePolicyFor:decisionHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPWebView.swift",
+      "line": 135,
+      "symbol": "GAPWebView.scrollViewWillBeginZooming(_:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/GAPWebView.swift",
+      "line": 139,
+      "symbol": "GAPWebView.viewForZooming(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/Global.swift",
+      "line": 3,
+      "symbol": "ErrorCode",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/Global.swift",
+      "line": 4,
+      "symbol": "ErrorCode.prebidServerURLInvalid(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/Global.swift",
+      "line": 5,
+      "symbol": "ErrorCode.yearOfBirthInvalid",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/Global.swift",
+      "line": 6,
+      "symbol": "ErrorCode.invalidSize(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/Logging.swift",
+      "line": 16,
+      "symbol": "Log",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/Logging.swift",
+      "line": 20,
+      "symbol": "Log.Level.debug",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/Logging.swift",
+      "line": 20,
+      "symbol": "Log.Level.error",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/Logging.swift",
+      "line": 20,
+      "symbol": "Log.Level.info",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/Logging.swift",
+      "line": 20,
+      "symbol": "Log.Level.none",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/Logging.swift",
+      "line": 20,
+      "symbol": "Log.Level.warn",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/Logging.swift",
+      "line": 41,
+      "symbol": "Log.init(level:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/Logging.swift",
+      "line": 82,
+      "symbol": "Log.debugJSON(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/Logging.swift",
+      "line": 98,
+      "symbol": "Log.level",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/Logging.swift",
+      "line": 107,
+      "symbol": "Log.error(_:file:line:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/Logging.swift",
+      "line": 111,
+      "symbol": "Log.warn(_:file:line:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/Logging.swift",
+      "line": 115,
+      "symbol": "Log.info(_:file:line:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/Logging.swift",
+      "line": 119,
+      "symbol": "Log.debug(_:file:line:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/Logging.swift",
+      "line": 123,
+      "symbol": "Log.debugJSON(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/NativeAds/GAPNativeAd.swift",
+      "line": 3,
+      "symbol": "GAPNativeAd",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/NativeAds/GAPNativeAd.swift",
+      "line": 4,
+      "symbol": "GAPNativeAd.advertiser",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/NativeAds/GAPNativeAd.swift",
+      "line": 9,
+      "symbol": "GAPNativeAd.provider",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/NativeAds/GAPNativeAd.swift",
+      "line": 14,
+      "symbol": "GAPNativeAd.adChoicesView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/NativeAds/GAPNativeAd.swift",
+      "line": 20,
+      "symbol": "GAPNativeAd.delegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/NativeAds/GAPNativeAd.swift",
+      "line": 138,
+      "symbol": "GAPNativeAd",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/NativeAds/GAPNativeAd.swift",
+      "line": 143,
+      "symbol": "GAPNativeAd.loadTitleIntoLabel(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/NativeAds/GAPNativeAd.swift",
+      "line": 154,
+      "symbol": "GAPNativeAd.loadTextIntoLabel(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/NativeAds/GAPNativeAd.swift",
+      "line": 167,
+      "symbol": "GAPNativeAd.loadCallToActionTextIntoButton(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/NativeAds/GAPNativeAd.swift",
+      "line": 180,
+      "symbol": "GAPNativeAd.loadIconIntoImageView(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/NativeAds/GAPNativeAd.swift",
+      "line": 199,
+      "symbol": "GAPNativeAd.loadSponsoredTagIntoLabel(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/NativeAds/GAPNativeAd.swift",
+      "line": 212,
+      "symbol": "GAPNativeAd.loadImageIntoImageView(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/NativeAds/GAPNativeAd.swift",
+      "line": 358,
+      "symbol": "UIView.addTapGestureRecognizer(action:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/NativeAds/GAPNativeAdRendering.swift",
+      "line": 3,
+      "symbol": "GAPNativeAdRendering",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/NativeAds/GAPNativeAdRendering.swift",
+      "line": 4,
+      "symbol": "GAPNativeAdRendering.layoutAdAssets(adObject:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/NativeAds/GAPNativeRenderable.swift",
+      "line": 4,
+      "symbol": "GAPNativeRenderable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/NativeAds/GAPNativeRenderable.swift",
+      "line": 5,
+      "symbol": "GAPNativeRenderable.nativeTitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/NativeAds/GAPNativeRenderable.swift",
+      "line": 6,
+      "symbol": "GAPNativeRenderable.mainText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/NativeAds/GAPNativeRenderable.swift",
+      "line": 7,
+      "symbol": "GAPNativeRenderable.callToAction",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/NativeAds/GAPNativeRenderable.swift",
+      "line": 8,
+      "symbol": "GAPNativeRenderable.iconImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/NativeAds/GAPNativeRenderable.swift",
+      "line": 9,
+      "symbol": "GAPNativeRenderable.mainImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/GAPMobile/NativeAds/GAPNativeRenderable.swift",
+      "line": 11,
+      "symbol": "GAPNativeRenderable.sponsoredText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/OpenRTB/OpenRTB.swift",
+      "line": 3,
+      "symbol": "OpenRTBError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/OpenRTB/OpenRTB.swift",
+      "line": 4,
+      "symbol": "OpenRTBError.invalidView",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/OpenRTB/OpenRTB.swift",
+      "line": 5,
+      "symbol": "OpenRTBError.parseError(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/OpenRTB/OpenRTB.swift",
+      "line": 6,
+      "symbol": "OpenRTBError.invalidURL",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/OpenRTB/OpenRTBBanner.swift",
+      "line": 3,
+      "symbol": "OpenRTBBanner",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/OpenRTB/OpenRTBFormat.swift",
+      "line": 3,
+      "symbol": "OpenRTBFormat",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/OpenRTB/OpenRTBNative.swift",
+      "line": 3,
+      "symbol": "OpenRTBNative",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/OpenRTB/OpenRTBNativeRequest.swift",
+      "line": 4,
+      "symbol": "OpenRTBNativeRequest",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/OpenRTB/OpenRTBNativeResponse.swift",
+      "line": 3,
+      "symbol": "OpenRTBNativeResponse",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/OpenRTB/OpenRTBVideo.swift",
+      "line": 3,
+      "symbol": "OpenRTBVideo",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Constants.swift",
+      "line": 4,
+      "symbol": "String.IABGDPRSubjectToConsent",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Constants.swift",
+      "line": 5,
+      "symbol": "String.IABGDPRConsentString",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Constants.swift",
+      "line": 6,
+      "symbol": "String.kIFASentinelValue",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Constants.swift",
+      "line": 10,
+      "symbol": "Double.PBMinRefreshTime",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Constants.swift",
+      "line": 15,
+      "symbol": "Int.PBRequestTimeout",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Constants.swift",
+      "line": 68,
+      "symbol": "Array.toDictionary(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 3,
+      "symbol": "DispatchMutableDictionary",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 4,
+      "symbol": "DispatchMutableDictionary.DictionaryType",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 8,
+      "symbol": "DispatchMutableDictionary.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 10,
+      "symbol": "DispatchMutableDictionary.init(dictionary:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 15,
+      "symbol": "DispatchMutableDictionary.init(dictionary:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 25,
+      "symbol": "DispatchMutableDictionary.index(forKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 92,
+      "symbol": "DispatchMutableDictionary",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 93,
+      "symbol": "DispatchMutableDictionary.mapValues(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 100,
+      "symbol": "DispatchMutableDictionary.compactMapValues(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 107,
+      "symbol": "DispatchMutableDictionary.mapValues(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 113,
+      "symbol": "DispatchMutableDictionary.compactMapValues(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 119,
+      "symbol": "DispatchMutableDictionary.reduce(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 125,
+      "symbol": "DispatchMutableDictionary.reduce(into:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 131,
+      "symbol": "DispatchMutableDictionary.map(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 137,
+      "symbol": "DispatchMutableDictionary.compactMap(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 143,
+      "symbol": "DispatchMutableDictionary.sorted(by:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 150,
+      "symbol": "DispatchMutableDictionary",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 152,
+      "symbol": "DispatchMutableDictionary.removeValue(forKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 159,
+      "symbol": "DispatchMutableDictionary.remove(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 165,
+      "symbol": "DispatchMutableDictionary.removeAll(keepingCapacity:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 171,
+      "symbol": "DispatchMutableDictionary.removeAll()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 177,
+      "symbol": "DispatchMutableDictionary.popFirst()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 184,
+      "symbol": "DispatchMutableDictionary",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 191,
+      "symbol": "DispatchMutableDictionary.!=(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 197,
+      "symbol": "DispatchMutableDictionary.==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 202,
+      "symbol": "DispatchMutableDictionary.!=(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 207,
+      "symbol": "DispatchMutableDictionary.==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 212,
+      "symbol": "DispatchMutableDictionary.!=(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 218,
+      "symbol": "DispatchMutableDictionary",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 230,
+      "symbol": "DispatchMutableDictionary",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/DispatchMutableDictionary.swift",
+      "line": 240,
+      "symbol": "DispatchMutableDictionary",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 4,
+      "symbol": "ReachabilityError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 5,
+      "symbol": "ReachabilityError.failedToCreateWithAddress(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 6,
+      "symbol": "ReachabilityError.failedToCreateWithHostname(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 7,
+      "symbol": "ReachabilityError.unableToSetCallback(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 8,
+      "symbol": "ReachabilityError.unableToSetDispatchQueue(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 9,
+      "symbol": "ReachabilityError.unableToGetFlags(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 16,
+      "symbol": "Notification.Name.reachabilityChanged",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 19,
+      "symbol": "Reachability",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 20,
+      "symbol": "Reachability.NetworkReachable",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 21,
+      "symbol": "Reachability.NetworkUnreachable",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 35,
+      "symbol": "Reachability.Connection",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 37,
+      "symbol": "Reachability.Connection.none",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 38,
+      "symbol": "Reachability.Connection.cellular",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 38,
+      "symbol": "Reachability.Connection.unavailable",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 38,
+      "symbol": "Reachability.Connection.wifi",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 49,
+      "symbol": "Reachability.whenReachable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 50,
+      "symbol": "Reachability.whenUnreachable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 53,
+      "symbol": "Reachability.reachableOnWWAN",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 59,
+      "symbol": "Reachability.notificationCenter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 62,
+      "symbol": "Reachability.currentReachabilityString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 71,
+      "symbol": "Reachability.connection",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 124,
+      "symbol": "Reachability.init(hostname:queueQoS:targetQueue:notificationQueue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 134,
+      "symbol": "Reachability.init(queueQoS:targetQueue:notificationQueue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 151,
+      "symbol": "Reachability",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 153,
+      "symbol": "Reachability.startNotifier()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 208,
+      "symbol": "Reachability.stopNotifier()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 218,
+      "symbol": "Reachability.isReachable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 223,
+      "symbol": "Reachability.isReachableViaWWAN",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 229,
+      "symbol": "Reachability.isReachableViaWiFi",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Reachability.swift",
+      "line": 233,
+      "symbol": "Reachability.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Targeting.swift",
+      "line": 4,
+      "symbol": "Gender",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Targeting.swift",
+      "line": 5,
+      "symbol": "Gender.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Targeting.swift",
+      "line": 6,
+      "symbol": "Gender.other",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Targeting.swift",
+      "line": 7,
+      "symbol": "Gender.male",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Targeting.swift",
+      "line": 8,
+      "symbol": "Gender.female",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Targeting.swift",
+      "line": 11,
+      "symbol": "Targeting",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Targeting.swift",
+      "line": 17,
+      "symbol": "Targeting.gender",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Targeting.swift",
+      "line": 19,
+      "symbol": "Targeting.yearOfBirth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Targeting.swift",
+      "line": 23,
+      "symbol": "Targeting.setYearOfBirth(yob:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Targeting.swift",
+      "line": 46,
+      "symbol": "Targeting.gdprMasking",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Targeting.swift",
+      "line": 75,
+      "symbol": "Targeting.storeURL",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK/src/GAPMobile/Sources/Util/Targeting.swift",
+      "line": 76,
+      "symbol": "Targeting.domain",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/ts-andrii.durbalo/Development/Rakuten/Rakuten-Advertising-Developers/Ad-iOS-SDK"
+}

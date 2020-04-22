@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GAPAd Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/GAPAd" class="dashAnchor"></a>
+    <a title="GAPAd Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">GAPMobile Docs</a> (16% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">GAPMobile Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        GAPAd Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/DispatchMutableDictionary.html">DispatchMutableDictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPAd.html">GAPAd</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:9GAPMobile12GAPAdChoicesC">GAPAdChoices</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@GAPMobile@objc(cs)GAPAdChoicesView">GAPAdChoicesView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPAdLoader.html">GAPAdLoader</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPBannerView.html">GAPBannerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPDFPBannerCustomEvent.html">GAPDFPBannerCustomEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPDFPBidder.html">GAPDFPBidder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPDFPNativeCustomEvent.html">GAPDFPNativeCustomEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPDebug.html">GAPDebug</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPEventManager.html">GAPEventManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPMobile.html">GAPMobile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPNativeAd.html">GAPNativeAd</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPRequestOption.html">GAPRequestOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Log.html">Log</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Log/Level.html">– Level</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Reachability.html">Reachability</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Reachability/Connection.html">– Connection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Targeting.html">Targeting</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ErrorCode.html">ErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GAPError.html">GAPError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GAPRequestBuilderError.html">GAPRequestBuilderError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Gender.html">Gender</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OpenRTBError.html">OpenRTBError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ReachabilityError.html">ReachabilityError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Double.html">Double</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Notification.html">Notification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Notification/Name.html">– Name</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/GAPAdLoaderDelegate.html">GAPAdLoaderDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GAPBannerViewDelegate.html">GAPBannerViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GAPNativeAdDelegate.html">GAPNativeAdDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GAPNativeAdRendering.html">GAPNativeAdRendering</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GAPNativeRenderable.html">GAPNativeRenderable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GAPRequestBuilder.html">GAPRequestBuilder</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9GAPMobile13OpenRTBBannerV">OpenRTBBanner</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9GAPMobile13OpenRTBFormatV">OpenRTBFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9GAPMobile13OpenRTBNativeV">OpenRTBNative</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9GAPMobile20OpenRTBNativeRequestV">OpenRTBNativeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9GAPMobile21OpenRTBNativeResponseV">OpenRTBNativeResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9GAPMobile12OpenRTBVideoV">OpenRTBVideo</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>GAPAd</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">GAPAd</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile5GAPAdC4ecpmSdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/ecpm" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile5GAPAdC4ecpmSdSgvp">ecpm</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">ecpm</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile5GAPAdC3admSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/adm" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile5GAPAdC3admSSSgvp">adm</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">adm</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile5GAPAdC10advertiserSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/advertiser" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile5GAPAdC10advertiserSSSgvp">advertiser</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">advertiser</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile5GAPAdC8providerSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/provider" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile5GAPAdC8providerSSSgvp">provider</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">provider</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile5GAPAdC3ttlSiSgvp"></a>
+                    <a name="//apple_ref/swift/Property/ttl" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile5GAPAdC3ttlSiSgvp">ttl</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">ttl</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile5GAPAdC6nativeAA21OpenRTBNativeResponseVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/native" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile5GAPAdC6nativeAA21OpenRTBNativeResponseVSgvp">native</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">native</span><span class="p">:</span> <span class="kt"><a href="../Structs.html#/s:9GAPMobile21OpenRTBNativeResponseV">OpenRTBNativeResponse</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile5GAPAdC4sizeSo6CGSizeVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/size" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile5GAPAdC4sizeSo6CGSizeVSgvp">size</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">size</span><span class="p">:</span> <span class="kt">CGSize</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile5GAPAdC10identifierSSvp"></a>
+                    <a name="//apple_ref/swift/Property/identifier" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile5GAPAdC10identifierSSvp">identifier</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">identifier</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile5GAPAdC15customTargetingSDys11AnyHashableVypGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/customTargeting" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile5GAPAdC15customTargetingSDys11AnyHashableVypGSgvp">customTargeting</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">customTargeting</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile5GAPAdC8keywordsSayypGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/keywords" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile5GAPAdC8keywordsSayypGSgvp">keywords</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">keywords</span><span class="p">:</span> <span class="p">[</span><span class="kt">Any</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile5GAPAdC19eventTrackerManagerAA08GAPEventE0Cvp"></a>
+                    <a name="//apple_ref/swift/Property/eventTrackerManager" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile5GAPAdC19eventTrackerManagerAA08GAPEventE0Cvp">eventTrackerManager</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">eventTrackerManager</span><span class="p">:</span> <span class="kt"><a href="../Classes/GAPEventManager.html">GAPEventManager</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile5GAPAdC8delegateAA0B14LoaderDelegate_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/delegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile5GAPAdC8delegateAA0B14LoaderDelegate_pSgvp">delegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">delegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/GAPAdLoaderDelegate.html">GAPAdLoaderDelegate</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile5GAPAdC14bannerDelegateAA013GAPBannerViewD0_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/bannerDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile5GAPAdC14bannerDelegateAA013GAPBannerViewD0_pSgvp">bannerDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">bannerDelegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/GAPBannerViewDelegate.html">GAPBannerViewDelegate</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile5GAPAdC14nativeDelegateAA011GAPNativeAdD0_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/nativeDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile5GAPAdC14nativeDelegateAA011GAPNativeAdD0_pSgvp">nativeDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">nativeDelegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/GAPNativeAdDelegate.html">GAPNativeAdDelegate</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile5GAPAdC13adChoicesViewAA0bdE0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/adChoicesView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile5GAPAdC13adChoicesViewAA0bdE0CSgvp">adChoicesView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">adChoicesView</span><span class="p">:</span> <span class="kt"><a href="../Classes.html#/c:@M@GAPMobile@objc(cs)GAPAdChoicesView">GAPAdChoicesView</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile5GAPAdC8adUnitID0C4ViewACSS_So6UIViewCtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(adUnitID:adView:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile5GAPAdC8adUnitID0C4ViewACSS_So6UIViewCtcfc">init(adUnitID:<wbr>adView:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">adUnitID</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">adView</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile5GAPAdC8adUnitIDACSS_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(adUnitID:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile5GAPAdC8adUnitIDACSS_tcfc">init(adUnitID:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">adUnitID</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile5GAPAdC17fireClickTrackersyyF"></a>
+                    <a name="//apple_ref/swift/Method/fireClickTrackers()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile5GAPAdC17fireClickTrackersyyF">fireClickTrackers()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>todo: refactor event management</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">fireClickTrackers</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile5GAPAdC21fireAvailableTrackersyyF"></a>
+                    <a name="//apple_ref/swift/Method/fireAvailableTrackers()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile5GAPAdC21fireAvailableTrackersyyF">fireAvailableTrackers()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">fireAvailableTrackers</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile5GAPAdC19fireVisibleTrackersyyF"></a>
+                    <a name="//apple_ref/swift/Method/fireVisibleTrackers()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile5GAPAdC19fireVisibleTrackersyyF">fireVisibleTrackers()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">fireVisibleTrackers</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://github.com/Rakuten-Advertising-Developers/Ad-iOS-SDK" target="_blank" rel="external">Rakuten Advertising</a>. All rights reserved. (Last updated: 2020-04-22)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

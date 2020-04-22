@@ -1,0 +1,1385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GAPDFPBidder Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/GAPDFPBidder" class="dashAnchor"></a>
+    <a title="GAPDFPBidder Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">GAPMobile Docs</a> (16% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">GAPMobile Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        GAPDFPBidder Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/DispatchMutableDictionary.html">DispatchMutableDictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPAd.html">GAPAd</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:9GAPMobile12GAPAdChoicesC">GAPAdChoices</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@GAPMobile@objc(cs)GAPAdChoicesView">GAPAdChoicesView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPAdLoader.html">GAPAdLoader</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPBannerView.html">GAPBannerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPDFPBannerCustomEvent.html">GAPDFPBannerCustomEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPDFPBidder.html">GAPDFPBidder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPDFPNativeCustomEvent.html">GAPDFPNativeCustomEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPDebug.html">GAPDebug</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPEventManager.html">GAPEventManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPMobile.html">GAPMobile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPNativeAd.html">GAPNativeAd</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPRequestOption.html">GAPRequestOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Log.html">Log</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Log/Level.html">– Level</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Reachability.html">Reachability</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Reachability/Connection.html">– Connection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Targeting.html">Targeting</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ErrorCode.html">ErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GAPError.html">GAPError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GAPRequestBuilderError.html">GAPRequestBuilderError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Gender.html">Gender</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OpenRTBError.html">OpenRTBError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ReachabilityError.html">ReachabilityError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Double.html">Double</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Notification.html">Notification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Notification/Name.html">– Name</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/GAPAdLoaderDelegate.html">GAPAdLoaderDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GAPBannerViewDelegate.html">GAPBannerViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GAPNativeAdDelegate.html">GAPNativeAdDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GAPNativeAdRendering.html">GAPNativeAdRendering</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GAPNativeRenderable.html">GAPNativeRenderable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GAPRequestBuilder.html">GAPRequestBuilder</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9GAPMobile13OpenRTBBannerV">OpenRTBBanner</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9GAPMobile13OpenRTBFormatV">OpenRTBFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9GAPMobile13OpenRTBNativeV">OpenRTBNative</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9GAPMobile20OpenRTBNativeRequestV">OpenRTBNativeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9GAPMobile21OpenRTBNativeResponseV">OpenRTBNativeResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9GAPMobile12OpenRTBVideoV">OpenRTBVideo</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>GAPDFPBidder</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">GAPDFPBidder</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt"><a href="../Protocols/GAPAdLoaderDelegate.html">GAPAdLoaderDelegate</a></span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">GAPDFPBidder</span><span class="p">:</span> <span class="kt">GADUnifiedNativeAdLoaderDelegate</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">GAPDFPBidder</span><span class="p">:</span> <span class="kt">DFPBannerAdLoaderDelegate</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">GAPDFPBidder</span><span class="p">:</span> <span class="kt">GADBannerViewDelegate</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">GAPDFPBidder</span><span class="p">:</span> <span class="kt">GADUnifiedNativeAdDelegate</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile12GAPDFPBidderC8adLoaderAA05GAPAdD0Cvp"></a>
+                    <a name="//apple_ref/swift/Property/adLoader" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile12GAPDFPBidderC8adLoaderAA05GAPAdD0Cvp">adLoader</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">adLoader</span><span class="p">:</span> <span class="kt"><a href="../Classes/GAPAdLoader.html">GAPAdLoader</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile12GAPDFPBidderC9gAdLoaderSo05GADAdD0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/gAdLoader" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile12GAPDFPBidderC9gAdLoaderSo05GADAdD0CSgvp">gAdLoader</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">gAdLoader</span><span class="p">:</span> <span class="kt">GADAdLoader</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile12GAPDFPBidderC12nativeAdViewSo6UIViewCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/nativeAdView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile12GAPDFPBidderC12nativeAdViewSo6UIViewCSgvp">nativeAdView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">nativeAdView</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile12GAPDFPBidderC13adChoicesViewSo6UIViewCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/adChoicesView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile12GAPDFPBidderC13adChoicesViewSo6UIViewCSgvp">adChoicesView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">adChoicesView</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile12GAPDFPBidderC9appUserIDSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/appUserID" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile12GAPDFPBidderC9appUserIDSSSgvp">appUserID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">appUserID</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile12GAPDFPBidderC11bannerSizesSaySo9GADAdSizeVGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/bannerSizes" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile12GAPDFPBidderC11bannerSizesSaySo9GADAdSizeVGSgvp">bannerSizes</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">bannerSizes</span><span class="p">:</span> <span class="p">[</span><span class="kt">GADAdSize</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile12GAPDFPBidderC13bannerRequestSbSgvp"></a>
+                    <a name="//apple_ref/swift/Property/bannerRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile12GAPDFPBidderC13bannerRequestSbSgvp">bannerRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">bannerRequest</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile12GAPDFPBidderC10bannerViewSo09GADBannerD0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/bannerView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile12GAPDFPBidderC10bannerViewSo09GADBannerD0CSgvp">bannerView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">bannerView</span><span class="p">:</span> <span class="kt">GADBannerView</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile12GAPDFPBidderC12userKeywordsSDys11AnyHashableVypGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/userKeywords" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile12GAPDFPBidderC12userKeywordsSDys11AnyHashableVypGSgvp">userKeywords</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">userKeywords</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile12GAPDFPBidderC5debugAA8GAPDebugCvp"></a>
+                    <a name="//apple_ref/swift/Property/debug" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile12GAPDFPBidderC5debugAA8GAPDebugCvp">debug</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">debug</span><span class="p">:</span> <span class="kt"><a href="../Classes/GAPDebug.html">GAPDebug</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile12GAPDFPBidderC19refreshMillisecondsSivp"></a>
+                    <a name="//apple_ref/swift/Property/refreshMilliseconds" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile12GAPDFPBidderC19refreshMillisecondsSivp">refreshMilliseconds</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">refreshMilliseconds</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile12GAPDFPBidderC17overrideRenderingSbvp"></a>
+                    <a name="//apple_ref/swift/Property/overrideRendering" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile12GAPDFPBidderC17overrideRenderingSbvp">overrideRendering</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">overrideRendering</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile12GAPDFPBidderC18rootViewControllerSo06UIViewE0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/rootViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile12GAPDFPBidderC18rootViewControllerSo06UIViewE0CSgvp">rootViewController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">rootViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile12GAPDFPBidderC13adPlaceholderSo6UIViewCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/adPlaceholder" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile12GAPDFPBidderC13adPlaceholderSo6UIViewCSgvp">adPlaceholder</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">adPlaceholder</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile12GAPDFPBidderC14bannerDelegateAA013GAPBannerViewD0_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/bannerDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile12GAPDFPBidderC14bannerDelegateAA013GAPBannerViewD0_pSgvp">bannerDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>GAP Delegates</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">bannerDelegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/GAPBannerViewDelegate.html">GAPBannerViewDelegate</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile12GAPDFPBidderC14nativeDelegateAA011GAPNativeAdD0_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/nativeDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile12GAPDFPBidderC14nativeDelegateAA011GAPNativeAdD0_pSgvp">nativeDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">nativeDelegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/GAPNativeAdDelegate.html">GAPNativeAdDelegate</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile12GAPDFPBidderC17gAdNativeDelegateSo010GADUnifieddc6LoaderE0_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/gAdNativeDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile12GAPDFPBidderC17gAdNativeDelegateSo010GADUnifieddc6LoaderE0_pSgvp">gAdNativeDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>GAD Delegates</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">gAdNativeDelegate</span><span class="p">:</span> <span class="kt">GADUnifiedNativeAdLoaderDelegate</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile12GAPDFPBidderC17gAdBannerDelegateSo013GADBannerViewE0_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/gAdBannerDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile12GAPDFPBidderC17gAdBannerDelegateSo013GADBannerViewE0_pSgvp">gAdBannerDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">gAdBannerDelegate</span><span class="p">:</span> <span class="kt">GADBannerViewDelegate</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile12GAPDFPBidderC8adUnitID14requestOptionsACSS_AA16GAPRequestOptionCtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(adUnitID:requestOptions:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile12GAPDFPBidderC8adUnitID14requestOptionsACSS_AA16GAPRequestOptionCtcfc">init(adUnitID:<wbr>requestOptions:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">adUnitID</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">requestOptions</span><span class="p">:</span> <span class="kt"><a href="../Classes/GAPRequestOption.html">GAPRequestOption</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@GAPMobile@objc(cs)GAPDFPBidder(im)setGADWithAdUnitID:rootViewController:options:"></a>
+                    <a name="//apple_ref/swift/Method/setGAD(adUnitID:rootViewController:options:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@GAPMobile@objc(cs)GAPDFPBidder(im)setGADWithAdUnitID:rootViewController:options:">setGAD(adUnitID:<wbr>rootViewController:<wbr>options:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setGAD</span><span class="p">(</span><span class="nv">adUnitID</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">rootViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">?,</span> <span class="nv">options</span><span class="p">:</span> <span class="p">[</span><span class="kt">GADAdLoaderOptions</span><span class="p">]?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@GAPMobile@objc(cs)GAPDFPBidder(im)loadAdsWithDfpRequest:"></a>
+                    <a name="//apple_ref/swift/Method/loadAds(dfpRequest:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@GAPMobile@objc(cs)GAPDFPBidder(im)loadAdsWithDfpRequest:">loadAds(dfpRequest:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">loadAds</span><span class="p">(</span><span class="nv">dfpRequest</span><span class="p">:</span> <span class="kt">DFPRequest</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@GAPMobile@objc(cs)GAPDFPBidder(im)adLoaderDidReceiveAd:"></a>
+                    <a name="//apple_ref/swift/Method/adLoaderDidReceiveAd(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@GAPMobile@objc(cs)GAPDFPBidder(im)adLoaderDidReceiveAd:">adLoaderDidReceiveAd(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">adLoaderDidReceiveAd</span><span class="p">(</span><span class="n">_</span> <span class="nv">adUnit</span><span class="p">:</span> <span class="kt"><a href="../Classes/GAPAd.html">GAPAd</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@GAPMobile@objc(cs)GAPDFPBidder(im)adLoaderDidFailWithDidFail:"></a>
+                    <a name="//apple_ref/swift/Method/adLoaderDidFail(didFail:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@GAPMobile@objc(cs)GAPDFPBidder(im)adLoaderDidFailWithDidFail:">adLoaderDidFail(didFail:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">adLoaderDidFail</span><span class="p">(</span><span class="n">didFail</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">NSError</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile12GAPDFPBidderC21overrideViewRendering14bannerDelegate06nativeG0ySo09GADBannerdG0_pSg_So024GADUnifiedNativeAdLoaderG0_pSgtF"></a>
+                    <a name="//apple_ref/swift/Method/overrideViewRendering(bannerDelegate:nativeDelegate:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile12GAPDFPBidderC21overrideViewRendering14bannerDelegate06nativeG0ySo09GADBannerdG0_pSg_So024GADUnifiedNativeAdLoaderG0_pSgtF">overrideViewRendering(bannerDelegate:<wbr>nativeDelegate:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>overrideViewRendering prevents the SDK from rendering the view for the user, instead it will pass the information through</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">overrideViewRendering</span><span class="p">(</span><span class="nv">bannerDelegate</span><span class="p">:</span> <span class="kt">GADBannerViewDelegate</span><span class="p">?,</span> <span class="nv">nativeDelegate</span><span class="p">:</span> <span class="kt">GADUnifiedNativeAdLoaderDelegate</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile12GAPDFPBidderC6cancelyyF"></a>
+                    <a name="//apple_ref/swift/Method/cancel()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile12GAPDFPBidderC6cancelyyF">cancel()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>cancel any pending requests
+Should be called when using auto-refresh</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">cancel</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)adLoader:didReceiveUnifiedNativeAd:"></a>
+                    <a name="//apple_ref/swift/Method/adLoader(_:didReceive:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)adLoader:didReceiveUnifiedNativeAd:">adLoader(_:<wbr>didReceive:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">adLoader</span><span class="p">(</span><span class="n">_</span> <span class="nv">adLoader</span><span class="p">:</span> <span class="kt">GADAdLoader</span><span class="p">,</span> <span class="n">didReceive</span> <span class="nv">nativeAd</span><span class="p">:</span> <span class="kt">GADUnifiedNativeAd</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)adLoader:didFailToReceiveAdWithError:"></a>
+                    <a name="//apple_ref/swift/Method/adLoader(_:didFailToReceiveAdWithError:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)adLoader:didFailToReceiveAdWithError:">adLoader(_:<wbr>didFailToReceiveAdWithError:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">adLoader</span><span class="p">(</span><span class="n">_</span> <span class="nv">adLoader</span><span class="p">:</span> <span class="kt">GADAdLoader</span><span class="p">,</span> <span class="n">didFailToReceiveAdWithError</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">GADRequestError</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)adLoaderDidFinishLoading:"></a>
+                    <a name="//apple_ref/swift/Method/adLoaderDidFinishLoading(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)adLoaderDidFinishLoading:">adLoaderDidFinishLoading(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">adLoaderDidFinishLoading</span><span class="p">(</span><span class="n">_</span> <span class="nv">adLoader</span><span class="p">:</span> <span class="kt">GADAdLoader</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)validBannerSizesForAdLoader:"></a>
+                    <a name="//apple_ref/swift/Method/validBannerSizes(for:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)validBannerSizesForAdLoader:">validBannerSizes(for:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">validBannerSizes</span><span class="p">(</span><span class="k">for</span> <span class="nv">adLoader</span><span class="p">:</span> <span class="kt">GADAdLoader</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">NSValue</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)adLoader:didReceiveDFPBannerView:"></a>
+                    <a name="//apple_ref/swift/Method/adLoader(_:didReceive:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)adLoader:didReceiveDFPBannerView:">adLoader(_:<wbr>didReceive:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">adLoader</span><span class="p">(</span><span class="n">_</span> <span class="nv">adLoader</span><span class="p">:</span> <span class="kt">GADAdLoader</span><span class="p">,</span> <span class="n">didReceive</span> <span class="nv">bannerView</span><span class="p">:</span> <span class="kt">DFPBannerView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)adViewDidReceiveAd:"></a>
+                    <a name="//apple_ref/swift/Method/adViewDidReceiveAd(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)adViewDidReceiveAd:">adViewDidReceiveAd(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">adViewDidReceiveAd</span><span class="p">(</span><span class="n">_</span> <span class="nv">bannerView</span><span class="p">:</span> <span class="kt">GADBannerView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)adView:didFailToReceiveAdWithError:"></a>
+                    <a name="//apple_ref/swift/Method/adView(_:didFailToReceiveAdWithError:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)adView:didFailToReceiveAdWithError:">adView(_:<wbr>didFailToReceiveAdWithError:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">adView</span><span class="p">(</span><span class="n">_</span> <span class="nv">bannerView</span><span class="p">:</span> <span class="kt">GADBannerView</span><span class="p">,</span> <span class="n">didFailToReceiveAdWithError</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">GADRequestError</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)adViewWillPresentScreen:"></a>
+                    <a name="//apple_ref/swift/Method/adViewWillPresentScreen(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)adViewWillPresentScreen:">adViewWillPresentScreen(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">adViewWillPresentScreen</span><span class="p">(</span><span class="n">_</span> <span class="nv">bannerView</span><span class="p">:</span> <span class="kt">GADBannerView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)adViewWillDismissScreen:"></a>
+                    <a name="//apple_ref/swift/Method/adViewWillDismissScreen(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)adViewWillDismissScreen:">adViewWillDismissScreen(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">adViewWillDismissScreen</span><span class="p">(</span><span class="n">_</span> <span class="nv">bannerView</span><span class="p">:</span> <span class="kt">GADBannerView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)adViewDidDismissScreen:"></a>
+                    <a name="//apple_ref/swift/Method/adViewDidDismissScreen(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)adViewDidDismissScreen:">adViewDidDismissScreen(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">adViewDidDismissScreen</span><span class="p">(</span><span class="n">_</span> <span class="nv">bannerView</span><span class="p">:</span> <span class="kt">GADBannerView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)adViewWillLeaveApplication:"></a>
+                    <a name="//apple_ref/swift/Method/adViewWillLeaveApplication(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)adViewWillLeaveApplication:">adViewWillLeaveApplication(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">adViewWillLeaveApplication</span><span class="p">(</span><span class="n">_</span> <span class="nv">bannerView</span><span class="p">:</span> <span class="kt">GADBannerView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)nativeAdDidRecordImpression:"></a>
+                    <a name="//apple_ref/swift/Method/nativeAdDidRecordImpression(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)nativeAdDidRecordImpression:">nativeAdDidRecordImpression(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">nativeAdDidRecordImpression</span><span class="p">(</span><span class="n">_</span> <span class="nv">nativeAd</span><span class="p">:</span> <span class="kt">GADUnifiedNativeAd</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)nativeAdDidRecordClick:"></a>
+                    <a name="//apple_ref/swift/Method/nativeAdDidRecordClick(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)nativeAdDidRecordClick:">nativeAdDidRecordClick(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">nativeAdDidRecordClick</span><span class="p">(</span><span class="n">_</span> <span class="nv">nativeAd</span><span class="p">:</span> <span class="kt">GADUnifiedNativeAd</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)nativeAdWillPresentScreen:"></a>
+                    <a name="//apple_ref/swift/Method/nativeAdWillPresentScreen(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)nativeAdWillPresentScreen:">nativeAdWillPresentScreen(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">nativeAdWillPresentScreen</span><span class="p">(</span><span class="n">_</span> <span class="nv">nativeAd</span><span class="p">:</span> <span class="kt">GADUnifiedNativeAd</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)nativeAdWillDismissScreen:"></a>
+                    <a name="//apple_ref/swift/Method/nativeAdWillDismissScreen(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)nativeAdWillDismissScreen:">nativeAdWillDismissScreen(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">nativeAdWillDismissScreen</span><span class="p">(</span><span class="n">_</span> <span class="nv">nativeAd</span><span class="p">:</span> <span class="kt">GADUnifiedNativeAd</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)nativeAdDidDismissScreen:"></a>
+                    <a name="//apple_ref/swift/Method/nativeAdDidDismissScreen(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)nativeAdDidDismissScreen:">nativeAdDidDismissScreen(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">nativeAdDidDismissScreen</span><span class="p">(</span><span class="n">_</span> <span class="nv">nativeAd</span><span class="p">:</span> <span class="kt">GADUnifiedNativeAd</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)nativeAdWillLeaveApplication:"></a>
+                    <a name="//apple_ref/swift/Method/nativeAdWillLeaveApplication(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)nativeAdWillLeaveApplication:">nativeAdWillLeaveApplication(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">nativeAdWillLeaveApplication</span><span class="p">(</span><span class="n">_</span> <span class="nv">nativeAd</span><span class="p">:</span> <span class="kt">GADUnifiedNativeAd</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)nativeAdIsMuted:"></a>
+                    <a name="//apple_ref/swift/Method/nativeAdIsMuted(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@GAPMobile@objc(cs)GAPDFPBidder(im)nativeAdIsMuted:">nativeAdIsMuted(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">nativeAdIsMuted</span><span class="p">(</span><span class="n">_</span> <span class="nv">nativeAd</span><span class="p">:</span> <span class="kt">GADUnifiedNativeAd</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://github.com/Rakuten-Advertising-Developers/Ad-iOS-SDK" target="_blank" rel="external">Rakuten Advertising</a>. All rights reserved. (Last updated: 2020-04-22)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

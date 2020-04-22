@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Log Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/Log" class="dashAnchor"></a>
+    <a title="Log Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">GAPMobile Docs</a> (16% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">GAPMobile Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        Log Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/DispatchMutableDictionary.html">DispatchMutableDictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPAd.html">GAPAd</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:9GAPMobile12GAPAdChoicesC">GAPAdChoices</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@GAPMobile@objc(cs)GAPAdChoicesView">GAPAdChoicesView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPAdLoader.html">GAPAdLoader</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPBannerView.html">GAPBannerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPDFPBannerCustomEvent.html">GAPDFPBannerCustomEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPDFPBidder.html">GAPDFPBidder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPDFPNativeCustomEvent.html">GAPDFPNativeCustomEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPDebug.html">GAPDebug</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPEventManager.html">GAPEventManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPMobile.html">GAPMobile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPNativeAd.html">GAPNativeAd</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPRequestOption.html">GAPRequestOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Log.html">Log</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Log/Level.html">– Level</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Reachability.html">Reachability</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Reachability/Connection.html">– Connection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Targeting.html">Targeting</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ErrorCode.html">ErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GAPError.html">GAPError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GAPRequestBuilderError.html">GAPRequestBuilderError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Gender.html">Gender</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OpenRTBError.html">OpenRTBError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ReachabilityError.html">ReachabilityError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Double.html">Double</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Notification.html">Notification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Notification/Name.html">– Name</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/GAPAdLoaderDelegate.html">GAPAdLoaderDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GAPBannerViewDelegate.html">GAPBannerViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GAPNativeAdDelegate.html">GAPNativeAdDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GAPNativeAdRendering.html">GAPNativeAdRendering</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GAPNativeRenderable.html">GAPNativeRenderable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GAPRequestBuilder.html">GAPRequestBuilder</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9GAPMobile13OpenRTBBannerV">OpenRTBBanner</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9GAPMobile13OpenRTBFormatV">OpenRTBFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9GAPMobile13OpenRTBNativeV">OpenRTBNative</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9GAPMobile20OpenRTBNativeRequestV">OpenRTBNativeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9GAPMobile21OpenRTBNativeResponseV">OpenRTBNativeResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9GAPMobile12OpenRTBVideoV">OpenRTBVideo</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Log</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">Log</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile3LogC5LevelO"></a>
+                    <a name="//apple_ref/swift/Enum/Level" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile3LogC5LevelO">Level</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Log level indicates how serious the log entry is.
+Lower number means higher priority.</p>
+
+                        <a href="../Classes/Log/Level.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">Level</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile3LogC7enabledSbvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/enabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile3LogC7enabledSbvpZ">enabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets wether logging is enabled. Useful for keeping all logging off
+for production deployment.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">enabled</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile3LogC5levelAC5LevelOvp"></a>
+                    <a name="//apple_ref/swift/Property/level" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile3LogC5levelAC5LevelOvp">level</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Minimum log level for output. Levels with lower priority are ignored.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">level</span><span class="p">:</span> <span class="kt"><a href="../Classes/Log/Level.html">Level</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile3LogC5levelA2C5LevelO_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(level:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile3LogC5levelA2C5LevelO_tcfc">init(level:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">level</span><span class="p">:</span> <span class="kt"><a href="../Classes/Log/Level.html">Level</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Instance%20methods"></a>
+                <a name="//apple_ref/swift/Section/Instance methods" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Instance%20methods"></a>
+                  <h3 class="section-name"><p>Instance methods</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile3LogC5error_4file4lineySS_SSSitF"></a>
+                    <a name="//apple_ref/swift/Method/error(_:file:line:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile3LogC5error_4file4lineySS_SSSitF">error(_:<wbr>file:<wbr>line:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Logs error if level is at least .Error.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">error</span><span class="p">(</span><span class="n">_</span> <span class="nv">str</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">file</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="kd">#file</span><span class="p">,</span> <span class="nv">line</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="kd">#line</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile3LogC4warn_4file4lineySS_SSSitF"></a>
+                    <a name="//apple_ref/swift/Method/warn(_:file:line:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile3LogC4warn_4file4lineySS_SSSitF">warn(_:<wbr>file:<wbr>line:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Logs warning if level is at least .Warn.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">warn</span><span class="p">(</span><span class="n">_</span> <span class="nv">str</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">file</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="kd">#file</span><span class="p">,</span> <span class="nv">line</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="kd">#line</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile3LogC4info_4file4lineySS_SSSitF"></a>
+                    <a name="//apple_ref/swift/Method/info(_:file:line:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile3LogC4info_4file4lineySS_SSSitF">info(_:<wbr>file:<wbr>line:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Logs info if level is at least .Info.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">info</span><span class="p">(</span><span class="n">_</span> <span class="nv">str</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">file</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="kd">#file</span><span class="p">,</span> <span class="nv">line</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="kd">#line</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile3LogC5debug_4file4lineySS_SSSitF"></a>
+                    <a name="//apple_ref/swift/Method/debug(_:file:line:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile3LogC5debug_4file4lineySS_SSSitF">debug(_:<wbr>file:<wbr>line:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Logs error if level is at least .Debug.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">debug</span><span class="p">(</span><span class="n">_</span> <span class="nv">str</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">file</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="kd">#file</span><span class="p">,</span> <span class="nv">line</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="kd">#line</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile3LogC9debugJSONyyxSERzlF"></a>
+                    <a name="//apple_ref/swift/Method/debugJSON(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile3LogC9debugJSONyyxSERzlF">debugJSON(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="n">debugJSON</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">T</span><span class="p">)</span> <span class="k">where</span> <span class="kt">T</span> <span class="p">:</span> <span class="kt">Encodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Shared%20logger"></a>
+                <a name="//apple_ref/swift/Section/Shared logger" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Shared%20logger"></a>
+                  <h3 class="section-name"><p>Shared logger</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile3LogC5levelAC5LevelOvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/level" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile3LogC5levelAC5LevelOvpZ">level</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">level</span><span class="p">:</span> <span class="kt"><a href="../Classes/Log/Level.html">Level</a></span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile3LogC5error_4file4lineySS_SSSitFZ"></a>
+                    <a name="//apple_ref/swift/Method/error(_:file:line:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile3LogC5error_4file4lineySS_SSSitFZ">error(_:<wbr>file:<wbr>line:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">error</span><span class="p">(</span><span class="n">_</span> <span class="nv">str</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">file</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="kd">#file</span><span class="p">,</span> <span class="nv">line</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="kd">#line</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile3LogC4warn_4file4lineySS_SSSitFZ"></a>
+                    <a name="//apple_ref/swift/Method/warn(_:file:line:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile3LogC4warn_4file4lineySS_SSSitFZ">warn(_:<wbr>file:<wbr>line:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">warn</span><span class="p">(</span><span class="n">_</span> <span class="nv">str</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">file</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="kd">#file</span><span class="p">,</span> <span class="nv">line</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="kd">#line</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile3LogC4info_4file4lineySS_SSSitFZ"></a>
+                    <a name="//apple_ref/swift/Method/info(_:file:line:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile3LogC4info_4file4lineySS_SSSitFZ">info(_:<wbr>file:<wbr>line:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">info</span><span class="p">(</span><span class="n">_</span> <span class="nv">str</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">file</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="kd">#file</span><span class="p">,</span> <span class="nv">line</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="kd">#line</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile3LogC5debug_4file4lineySS_SSSitFZ"></a>
+                    <a name="//apple_ref/swift/Method/debug(_:file:line:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile3LogC5debug_4file4lineySS_SSSitFZ">debug(_:<wbr>file:<wbr>line:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">debug</span><span class="p">(</span><span class="n">_</span> <span class="nv">str</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">file</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="kd">#file</span><span class="p">,</span> <span class="nv">line</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="kd">#line</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile3LogC9debugJSONyyxSERzlFZ"></a>
+                    <a name="//apple_ref/swift/Method/debugJSON(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile3LogC9debugJSONyyxSERzlFZ">debugJSON(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="n">debugJSON</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">T</span><span class="p">)</span> <span class="k">where</span> <span class="kt">T</span> <span class="p">:</span> <span class="kt">Encodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://github.com/Rakuten-Advertising-Developers/Ad-iOS-SDK" target="_blank" rel="external">Rakuten Advertising</a>. All rights reserved. (Last updated: 2020-04-22)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

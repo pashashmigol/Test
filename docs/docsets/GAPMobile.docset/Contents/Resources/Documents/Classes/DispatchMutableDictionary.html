@@ -1,0 +1,1313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DispatchMutableDictionary Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/DispatchMutableDictionary" class="dashAnchor"></a>
+    <a title="DispatchMutableDictionary Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">GAPMobile Docs</a> (16% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">GAPMobile Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        DispatchMutableDictionary Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/DispatchMutableDictionary.html">DispatchMutableDictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPAd.html">GAPAd</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:9GAPMobile12GAPAdChoicesC">GAPAdChoices</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@GAPMobile@objc(cs)GAPAdChoicesView">GAPAdChoicesView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPAdLoader.html">GAPAdLoader</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPBannerView.html">GAPBannerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPDFPBannerCustomEvent.html">GAPDFPBannerCustomEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPDFPBidder.html">GAPDFPBidder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPDFPNativeCustomEvent.html">GAPDFPNativeCustomEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPDebug.html">GAPDebug</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPEventManager.html">GAPEventManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPMobile.html">GAPMobile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPNativeAd.html">GAPNativeAd</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GAPRequestOption.html">GAPRequestOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Log.html">Log</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Log/Level.html">– Level</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Reachability.html">Reachability</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Reachability/Connection.html">– Connection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Targeting.html">Targeting</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ErrorCode.html">ErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GAPError.html">GAPError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GAPRequestBuilderError.html">GAPRequestBuilderError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Gender.html">Gender</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OpenRTBError.html">OpenRTBError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ReachabilityError.html">ReachabilityError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Double.html">Double</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Notification.html">Notification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Notification/Name.html">– Name</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/GAPAdLoaderDelegate.html">GAPAdLoaderDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GAPBannerViewDelegate.html">GAPBannerViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GAPNativeAdDelegate.html">GAPNativeAdDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GAPNativeAdRendering.html">GAPNativeAdRendering</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GAPNativeRenderable.html">GAPNativeRenderable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GAPRequestBuilder.html">GAPRequestBuilder</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9GAPMobile13OpenRTBBannerV">OpenRTBBanner</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9GAPMobile13OpenRTBFormatV">OpenRTBFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9GAPMobile13OpenRTBNativeV">OpenRTBNative</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9GAPMobile20OpenRTBNativeRequestV">OpenRTBNativeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9GAPMobile21OpenRTBNativeResponseV">OpenRTBNativeResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9GAPMobile12OpenRTBVideoV">OpenRTBVideo</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>DispatchMutableDictionary</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">DispatchMutableDictionary</span><span class="o">&lt;</span><span class="kt">Key</span><span class="p">,</span> <span class="kt">Value</span><span class="o">&gt;</span> <span class="p">:</span> <span class="kt">Collection</span><span class="p">,</span> <span class="kt">ExpressibleByDictionaryLiteral</span> <span class="k">where</span> <span class="kt">Key</span> <span class="p">:</span> <span class="kt">Hashable</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">DispatchMutableDictionary</span><span class="p">:</span> <span class="kt">Equatable</span> <span class="k">where</span> <span class="kt">Key</span><span class="p">:</span> <span class="kt">Equatable</span><span class="p">,</span> <span class="kt">Value</span><span class="p">:</span> <span class="kt">Equatable</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">DispatchMutableDictionary</span><span class="p">:</span> <span class="kt">Encodable</span> <span class="k">where</span> <span class="kt">Key</span><span class="p">:</span> <span class="kt">Encodable</span><span class="p">,</span> <span class="kt">Value</span><span class="p">:</span> <span class="kt">Encodable</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">DispatchMutableDictionary</span><span class="p">:</span> <span class="kt">Decodable</span> <span class="k">where</span> <span class="kt">Key</span><span class="p">:</span> <span class="kt">Decodable</span><span class="p">,</span> <span class="kt">Value</span><span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">DispatchMutableDictionary</span><span class="p">:</span> <span class="kt">Hashable</span> <span class="k">where</span> <span class="kt">Value</span><span class="p">:</span> <span class="kt">Hashable</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea"></a>
+                    <a name="//apple_ref/swift/Alias/DictionaryType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea">DictionaryType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">DictionaryType</span> <span class="o">=</span> <span class="p">[</span><span class="kt">Key</span> <span class="p">:</span> <span class="kt">Value</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile25DispatchMutableDictionaryCACyxq_Gycfc"></a>
+                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile25DispatchMutableDictionaryCACyxq_Gycfc">init()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile25DispatchMutableDictionaryC10dictionaryACyxq_GSDyxq_G_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(dictionary:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile25DispatchMutableDictionaryC10dictionaryACyxq_GSDyxq_G_tcfc">init(dictionary:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="n">dictionary</span> <span class="nv">elements</span><span class="p">:</span> <span class="kt"><a href="../Classes/DispatchMutableDictionary.html#/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea">DictionaryType</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile25DispatchMutableDictionaryC10dictionaryACyxq_GSayx3key_q_5valuetG_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(dictionary:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile25DispatchMutableDictionaryC10dictionaryACyxq_GSayx3key_q_5valuetG_tcfc">init(dictionary:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="n">dictionary</span> <span class="nv">elements</span><span class="p">:</span> <span class="p">[</span><span class="kt">Element</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:s30ExpressibleByDictionaryLiteralP010dictionaryD0x3KeyQz_5ValueQztd_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(dictionaryLiteral:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:s30ExpressibleByDictionaryLiteralP010dictionaryD0x3KeyQz_5ValueQztd_tcfc">init(dictionaryLiteral:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">required</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="n">dictionaryLiteral</span> <span class="nv">elements</span><span class="p">:</span> <span class="p">(</span><span class="kt">Key</span><span class="p">,</span> <span class="kt">Value</span><span class="p">)</span><span class="o">...</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile25DispatchMutableDictionaryC5index6forKeySD5IndexVyxq__GSgx_tF"></a>
+                    <a name="//apple_ref/swift/Method/index(forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile25DispatchMutableDictionaryC5index6forKeySD5IndexVyxq__GSgx_tF">index(forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">index</span><span class="p">(</span><span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt">Key</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/DispatchMutableDictionary.html#/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea">DictionaryType</a></span><span class="o">.</span><span class="kt">Index</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Sly7ElementQz5IndexQzcip"></a>
+                    <a name="//apple_ref/swift/Method/subscript(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Sly7ElementQz5IndexQzcip">subscript(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">subscript</span><span class="p">(</span><span class="nv">position</span><span class="p">:</span> <span class="kt"><a href="../Classes/DispatchMutableDictionary.html#/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea">DictionaryType</a></span><span class="o">.</span><span class="kt">Index</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/DispatchMutableDictionary.html#/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea">DictionaryType</a></span><span class="o">.</span><span class="kt">Iterator</span><span class="o">.</span><span class="kt">Element</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Sly11SubSequenceQzSny5IndexQzGcip"></a>
+                    <a name="//apple_ref/swift/Method/subscript(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Sly11SubSequenceQzSny5IndexQzGcip">subscript(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">subscript</span><span class="p">(</span><span class="nv">bounds</span><span class="p">:</span> <span class="kt">Range</span><span class="o">&lt;</span><span class="kt"><a href="../Classes/DispatchMutableDictionary.html#/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea">DictionaryType</a></span><span class="o">.</span><span class="kt">Index</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/DispatchMutableDictionary.html#/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea">DictionaryType</a></span><span class="o">.</span><span class="kt">SubSequence</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Sl7indices7IndicesQzvp"></a>
+                    <a name="//apple_ref/swift/Property/indices" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Sl7indices7IndicesQzvp">indices</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">indices</span><span class="p">:</span> <span class="kt"><a href="../Classes/DispatchMutableDictionary.html#/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea">DictionaryType</a></span><span class="o">.</span><span class="kt">Indices</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Sl10startIndex0B0Qzvp"></a>
+                    <a name="//apple_ref/swift/Property/startIndex" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Sl10startIndex0B0Qzvp">startIndex</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">startIndex</span><span class="p">:</span> <span class="kt"><a href="../Classes/DispatchMutableDictionary.html#/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea">DictionaryType</a></span><span class="o">.</span><span class="kt">Index</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Sl8endIndex0B0Qzvp"></a>
+                    <a name="//apple_ref/swift/Property/endIndex" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Sl8endIndex0B0Qzvp">endIndex</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">endIndex</span><span class="p">:</span> <span class="kt"><a href="../Classes/DispatchMutableDictionary.html#/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea">DictionaryType</a></span><span class="o">.</span><span class="kt">Index</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Sl5index5after5IndexQzAD_tF"></a>
+                    <a name="//apple_ref/swift/Method/index(after:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Sl5index5after5IndexQzAD_tF">index(after:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">index</span><span class="p">(</span><span class="n">after</span> <span class="nv">index</span><span class="p">:</span> <span class="kt"><a href="../Classes/DispatchMutableDictionary.html#/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea">DictionaryType</a></span><span class="o">.</span><span class="kt">Index</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/DispatchMutableDictionary.html#/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea">DictionaryType</a></span><span class="o">.</span><span class="kt">Index</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Sl5index_8offsetBy5IndexQzAD_SitF"></a>
+                    <a name="//apple_ref/swift/Method/index(_:offsetBy:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Sl5index_8offsetBy5IndexQzAD_SitF">index(_:<wbr>offsetBy:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">index</span><span class="p">(</span><span class="n">_</span> <span class="nv">index</span><span class="p">:</span> <span class="kt"><a href="../Classes/DispatchMutableDictionary.html#/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea">DictionaryType</a></span><span class="o">.</span><span class="kt">Index</span><span class="p">,</span> <span class="nv">offsetBy</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/DispatchMutableDictionary.html#/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea">DictionaryType</a></span><span class="o">.</span><span class="kt">Index</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Sl5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtF"></a>
+                    <a name="//apple_ref/swift/Method/index(_:offsetBy:limitedBy:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Sl5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtF">index(_:<wbr>offsetBy:<wbr>limitedBy:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">index</span><span class="p">(</span><span class="n">_</span> <span class="nv">index</span><span class="p">:</span> <span class="kt"><a href="../Classes/DispatchMutableDictionary.html#/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea">DictionaryType</a></span><span class="o">.</span><span class="kt">Index</span><span class="p">,</span> <span class="nv">offsetBy</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">limitedBy</span><span class="p">:</span> <span class="kt"><a href="../Classes/DispatchMutableDictionary.html#/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea">DictionaryType</a></span><span class="o">.</span><span class="kt">Index</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/DispatchMutableDictionary.html#/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea">DictionaryType</a></span><span class="o">.</span><span class="kt">Index</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Sl9formIndex5aftery0B0Qzz_tF"></a>
+                    <a name="//apple_ref/swift/Method/formIndex(after:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Sl9formIndex5aftery0B0Qzz_tF">formIndex(after:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">formIndex</span><span class="p">(</span><span class="n">after</span> <span class="nv">index</span><span class="p">:</span> <span class="k">inout</span> <span class="kt"><a href="../Classes/DispatchMutableDictionary.html#/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea">DictionaryType</a></span><span class="o">.</span><span class="kt">Index</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Sl8distance4from2toSi5IndexQz_AEtF"></a>
+                    <a name="//apple_ref/swift/Method/distance(from:to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Sl8distance4from2toSi5IndexQz_AEtF">distance(from:<wbr>to:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">distance</span><span class="p">(</span><span class="n">from</span> <span class="nv">start</span><span class="p">:</span> <span class="kt"><a href="../Classes/DispatchMutableDictionary.html#/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea">DictionaryType</a></span><span class="o">.</span><span class="kt">Index</span><span class="p">,</span> <span class="n">to</span> <span class="nv">end</span><span class="p">:</span> <span class="kt"><a href="../Classes/DispatchMutableDictionary.html#/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea">DictionaryType</a></span><span class="o">.</span><span class="kt">Index</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile25DispatchMutableDictionaryC9mapValuesyACyxqd__Gqd__q_KXEKlF"></a>
+                    <a name="//apple_ref/swift/Method/mapValues(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile25DispatchMutableDictionaryC9mapValuesyACyxqd__Gqd__q_KXEKlF">mapValues(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">mapValues</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">(</span><span class="n">_</span> <span class="nv">transform</span><span class="p">:</span> <span class="p">(</span><span class="kt">Value</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">T</span><span class="p">)</span> <span class="k">rethrows</span> <span class="o">-&gt;</span> <span class="kt">DispatchMutableDictionary</span><span class="o">&lt;</span><span class="kt">Key</span><span class="p">,</span> <span class="kt">T</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile25DispatchMutableDictionaryC16compactMapValuesyACyxqd__Gqd__Sgq_KXEKlF"></a>
+                    <a name="//apple_ref/swift/Method/compactMapValues(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile25DispatchMutableDictionaryC16compactMapValuesyACyxqd__Gqd__Sgq_KXEKlF">compactMapValues(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">compactMapValues</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">(</span><span class="n">_</span> <span class="nv">transform</span><span class="p">:</span> <span class="p">(</span><span class="kt">Value</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">T</span><span class="p">?)</span> <span class="k">rethrows</span> <span class="o">-&gt;</span> <span class="kt">DispatchMutableDictionary</span><span class="o">&lt;</span><span class="kt">Key</span><span class="p">,</span> <span class="kt">T</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile25DispatchMutableDictionaryC9mapValuesySDyxqd__Gqd__q_KXEKlF"></a>
+                    <a name="//apple_ref/swift/Method/mapValues(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile25DispatchMutableDictionaryC9mapValuesySDyxqd__Gqd__q_KXEKlF">mapValues(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">mapValues</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">(</span><span class="n">_</span> <span class="nv">transform</span><span class="p">:</span> <span class="p">(</span><span class="kt">Value</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">T</span><span class="p">)</span> <span class="k">rethrows</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">Key</span> <span class="p">:</span> <span class="kt">T</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile25DispatchMutableDictionaryC16compactMapValuesySDyxqd__Gqd__Sgq_KXEKlF"></a>
+                    <a name="//apple_ref/swift/Method/compactMapValues(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile25DispatchMutableDictionaryC16compactMapValuesySDyxqd__Gqd__Sgq_KXEKlF">compactMapValues(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">compactMapValues</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">(</span><span class="n">_</span> <span class="nv">transform</span><span class="p">:</span> <span class="p">(</span><span class="kt">Value</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">T</span><span class="p">?)</span> <span class="k">rethrows</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">Key</span> <span class="p">:</span> <span class="kt">T</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile25DispatchMutableDictionaryC6reduceyqd__qd___qd__qd___x3key_q_5valuettKXEtKlF"></a>
+                    <a name="//apple_ref/swift/Method/reduce(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile25DispatchMutableDictionaryC6reduceyqd__qd___qd__qd___x3key_q_5valuettKXEtKlF">reduce(_:<wbr>_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">reduce</span><span class="o">&lt;</span><span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="n">_</span> <span class="nv">initialResult</span><span class="p">:</span> <span class="kt">Result</span><span class="p">,</span> <span class="n">_</span> <span class="nv">nextPartialResult</span><span class="p">:</span> <span class="p">(</span><span class="kt">Result</span><span class="p">,</span> <span class="kt">Element</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">Result</span><span class="p">)</span> <span class="k">rethrows</span> <span class="o">-&gt;</span> <span class="kt">Result</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile25DispatchMutableDictionaryC6reduce4into_qd__qd___yqd__z_x3key_q_5valuettKXEtKlF"></a>
+                    <a name="//apple_ref/swift/Method/reduce(into:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile25DispatchMutableDictionaryC6reduce4into_qd__qd___yqd__z_x3key_q_5valuettKXEtKlF">reduce(into:<wbr>_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">reduce</span><span class="o">&lt;</span><span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="n">into</span> <span class="nv">initialResult</span><span class="p">:</span> <span class="kt">Result</span><span class="p">,</span> <span class="n">_</span> <span class="nv">updateAccumulatingResult</span><span class="p">:</span> <span class="p">(</span><span class="k">inout</span> <span class="kt">Result</span><span class="p">,</span> <span class="kt">Element</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="k">rethrows</span> <span class="o">-&gt;</span> <span class="kt">Result</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile25DispatchMutableDictionaryC3mapySayqd__Gqd__x3key_q_5valuet_tKXEKlF"></a>
+                    <a name="//apple_ref/swift/Method/map(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile25DispatchMutableDictionaryC3mapySayqd__Gqd__x3key_q_5valuet_tKXEKlF">map(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">map</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">(</span><span class="n">_</span> <span class="nv">transform</span><span class="p">:</span> <span class="p">(</span><span class="kt">Element</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">T</span><span class="p">)</span> <span class="k">rethrows</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">T</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile25DispatchMutableDictionaryC10compactMapySayqd__Gqd__Sgx3key_q_5valuet_tKXEKlF"></a>
+                    <a name="//apple_ref/swift/Method/compactMap(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile25DispatchMutableDictionaryC10compactMapySayqd__Gqd__Sgx3key_q_5valuet_tKXEKlF">compactMap(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">compactMap</span><span class="o">&lt;</span><span class="kt">ElementOfResult</span><span class="o">&gt;</span><span class="p">(</span><span class="n">_</span> <span class="nv">transform</span><span class="p">:</span> <span class="p">(</span><span class="kt">Element</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">ElementOfResult</span><span class="p">?)</span> <span class="k">rethrows</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">ElementOfResult</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile25DispatchMutableDictionaryC6sorted2bySayx3key_q_5valuetGSbxAF_q_AGt_xAF_q_AGttKXE_tKF"></a>
+                    <a name="//apple_ref/swift/Method/sorted(by:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile25DispatchMutableDictionaryC6sorted2bySayx3key_q_5valuetGSbxAF_q_AGt_xAF_q_AGttKXE_tKF">sorted(by:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">sorted</span><span class="p">(</span><span class="n">by</span> <span class="nv">areInIncreasingOrder</span><span class="p">:</span> <span class="p">(</span><span class="kt">Element</span><span class="p">,</span> <span class="kt">Element</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">Bool</span><span class="p">)</span> <span class="k">rethrows</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">Element</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile25DispatchMutableDictionaryC11removeValue6forKeyq_Sgx_tF"></a>
+                    <a name="//apple_ref/swift/Method/removeValue(forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile25DispatchMutableDictionaryC11removeValue6forKeyq_Sgx_tF">removeValue(forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">removeValue</span><span class="p">(</span><span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt">Key</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Value</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile25DispatchMutableDictionaryC6remove2atx3key_q_5valuetSD5IndexVyxq__G_tF"></a>
+                    <a name="//apple_ref/swift/Method/remove(at:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile25DispatchMutableDictionaryC6remove2atx3key_q_5valuetSD5IndexVyxq__G_tF">remove(at:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">remove</span><span class="p">(</span><span class="n">at</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Index</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Element</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile25DispatchMutableDictionaryC9removeAll15keepingCapacityySb_tF"></a>
+                    <a name="//apple_ref/swift/Method/removeAll(keepingCapacity:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile25DispatchMutableDictionaryC9removeAll15keepingCapacityySb_tF">removeAll(keepingCapacity:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">removeAll</span><span class="p">(</span><span class="n">keepingCapacity</span> <span class="nv">keepCapacity</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile25DispatchMutableDictionaryC9removeAllyyF"></a>
+                    <a name="//apple_ref/swift/Method/removeAll()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile25DispatchMutableDictionaryC9removeAllyyF">removeAll()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">removeAll</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile25DispatchMutableDictionaryC8popFirstx3key_q_5valuetSgyF"></a>
+                    <a name="//apple_ref/swift/Method/popFirst()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile25DispatchMutableDictionaryC8popFirstx3key_q_5valuetSgyF">popFirst()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">popFirst</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Element</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Available%20where%20%60Key%60:%20%60Equatable%60,%20%60Value%60:%20%60Equatable%60"></a>
+                <a name="//apple_ref/swift/Section/Available where `Key`: `Equatable`, `Value`: `Equatable`" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Available%20where%20%60Key%60:%20%60Equatable%60,%20%60Value%60:%20%60Equatable%60"></a>
+                  <h3 class="section-name"><p>Available where <code>Key</code>: <code>Equatable</code>, <code>Value</code>: <code>Equatable</code></p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SQ2eeoiySbx_xtFZ"></a>
+                    <a name="//apple_ref/swift/Method/==(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SQ2eeoiySbx_xtFZ">==(_:<wbr>_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="o">==</span> <span class="p">(</span><span class="nv">lhs</span><span class="p">:</span> <span class="kt">DispatchMutableDictionary</span><span class="o">&lt;</span><span class="kt">Key</span><span class="p">,</span> <span class="kt">Value</span><span class="o">&gt;</span><span class="p">,</span> <span class="nv">rhs</span><span class="p">:</span> <span class="kt">DispatchMutableDictionary</span><span class="o">&lt;</span><span class="kt">Key</span><span class="p">,</span> <span class="kt">Value</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile25DispatchMutableDictionaryCAASQR_rlE2neoiySbACyxq_G_AEtFZ"></a>
+                    <a name="//apple_ref/swift/Method/!=(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile25DispatchMutableDictionaryCAASQR_rlE2neoiySbACyxq_G_AEtFZ">!=(_:<wbr>_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="o">!=</span> <span class="p">(</span><span class="nv">lhs</span><span class="p">:</span> <span class="kt">DispatchMutableDictionary</span><span class="o">&lt;</span><span class="kt">Key</span><span class="p">,</span> <span class="kt">Value</span><span class="o">&gt;</span><span class="p">,</span> <span class="nv">rhs</span><span class="p">:</span> <span class="kt">DispatchMutableDictionary</span><span class="o">&lt;</span><span class="kt">Key</span><span class="p">,</span> <span class="kt">Value</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile25DispatchMutableDictionaryCAASQR_rlE2eeoiySbACyxq_G_SDyxq_GtFZ"></a>
+                    <a name="//apple_ref/swift/Method/==(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile25DispatchMutableDictionaryCAASQR_rlE2eeoiySbACyxq_G_SDyxq_GtFZ">==(_:<wbr>_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="o">==</span> <span class="p">(</span><span class="nv">lhs</span><span class="p">:</span> <span class="kt">DispatchMutableDictionary</span><span class="o">&lt;</span><span class="kt">Key</span><span class="p">,</span> <span class="kt">Value</span><span class="o">&gt;</span><span class="p">,</span> <span class="nv">rhs</span><span class="p">:</span> <span class="kt"><a href="../Classes/DispatchMutableDictionary.html#/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea">DictionaryType</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile25DispatchMutableDictionaryCAASQR_rlE2neoiySbACyxq_G_SDyxq_GtFZ"></a>
+                    <a name="//apple_ref/swift/Method/!=(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile25DispatchMutableDictionaryCAASQR_rlE2neoiySbACyxq_G_SDyxq_GtFZ">!=(_:<wbr>_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="o">!=</span> <span class="p">(</span><span class="nv">lhs</span><span class="p">:</span> <span class="kt">DispatchMutableDictionary</span><span class="o">&lt;</span><span class="kt">Key</span><span class="p">,</span> <span class="kt">Value</span><span class="o">&gt;</span><span class="p">,</span> <span class="nv">rhs</span><span class="p">:</span> <span class="kt"><a href="../Classes/DispatchMutableDictionary.html#/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea">DictionaryType</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile25DispatchMutableDictionaryCAASQR_rlE2eeoiySbSDyxq_G_ACyxq_GtFZ"></a>
+                    <a name="//apple_ref/swift/Method/==(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile25DispatchMutableDictionaryCAASQR_rlE2eeoiySbSDyxq_G_ACyxq_GtFZ">==(_:<wbr>_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="o">==</span> <span class="p">(</span><span class="nv">lhs</span><span class="p">:</span> <span class="kt"><a href="../Classes/DispatchMutableDictionary.html#/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea">DictionaryType</a></span><span class="p">,</span> <span class="nv">rhs</span><span class="p">:</span> <span class="kt">DispatchMutableDictionary</span><span class="o">&lt;</span><span class="kt">Key</span><span class="p">,</span> <span class="kt">Value</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9GAPMobile25DispatchMutableDictionaryCAASQR_rlE2neoiySbSDyxq_G_ACyxq_GtFZ"></a>
+                    <a name="//apple_ref/swift/Method/!=(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9GAPMobile25DispatchMutableDictionaryCAASQR_rlE2neoiySbSDyxq_G_ACyxq_GtFZ">!=(_:<wbr>_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="o">!=</span> <span class="p">(</span><span class="nv">lhs</span><span class="p">:</span> <span class="kt"><a href="../Classes/DispatchMutableDictionary.html#/s:9GAPMobile25DispatchMutableDictionaryC0D4Typea">DictionaryType</a></span><span class="p">,</span> <span class="nv">rhs</span><span class="p">:</span> <span class="kt">DispatchMutableDictionary</span><span class="o">&lt;</span><span class="kt">Key</span><span class="p">,</span> <span class="kt">Value</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Available%20where%20%60Key%60:%20%60Encodable%60,%20%60Value%60:%20%60Encodable%60"></a>
+                <a name="//apple_ref/swift/Section/Available where `Key`: `Encodable`, `Value`: `Encodable`" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Available%20where%20%60Key%60:%20%60Encodable%60,%20%60Value%60:%20%60Encodable%60"></a>
+                  <h3 class="section-name"><p>Available where <code>Key</code>: <code>Encodable</code>, <code>Value</code>: <code>Encodable</code></p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SE6encode2toys7Encoder_p_tKF"></a>
+                    <a name="//apple_ref/swift/Method/encode(to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SE6encode2toys7Encoder_p_tKF">encode(to:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">encode</span><span class="p">(</span><span class="n">to</span> <span class="nv">encoder</span><span class="p">:</span> <span class="kt">Encoder</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Available%20where%20%60Key%60:%20%60Decodable%60,%20%60Value%60:%20%60Decodable%60"></a>
+                <a name="//apple_ref/swift/Section/Available where `Key`: `Decodable`, `Value`: `Decodable`" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Available%20where%20%60Key%60:%20%60Decodable%60,%20%60Value%60:%20%60Decodable%60"></a>
+                  <h3 class="section-name"><p>Available where <code>Key</code>: <code>Decodable</code>, <code>Value</code>: <code>Decodable</code></p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Se4fromxs7Decoder_p_tKcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(from:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Se4fromxs7Decoder_p_tKcfc">init(from:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="n">from</span> <span class="nv">decoder</span><span class="p">:</span> <span class="kt">Decoder</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Available%20where%20%60Value%60:%20%60Hashable%60"></a>
+                <a name="//apple_ref/swift/Section/Available where `Value`: `Hashable`" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Available%20where%20%60Value%60:%20%60Hashable%60"></a>
+                  <h3 class="section-name"><p>Available where <code>Value</code>: <code>Hashable</code></p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SH4hash4intoys6HasherVz_tF"></a>
+                    <a name="//apple_ref/swift/Method/hash(into:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SH4hash4intoys6HasherVz_tF">hash(into:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">hash</span><span class="p">(</span><span class="n">into</span> <span class="nv">hasher</span><span class="p">:</span> <span class="k">inout</span> <span class="kt">Hasher</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://github.com/Rakuten-Advertising-Developers/Ad-iOS-SDK" target="_blank" rel="external">Rakuten Advertising</a>. All rights reserved. (Last updated: 2020-04-22)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
